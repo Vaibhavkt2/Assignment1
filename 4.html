@@ -1,0 +1,35 @@
+<!DOCTYPE html >
+<html>
+<body>
+<script>
+    //User Input
+var firstNumber =parseInt( prompt("Enter the first number"));
+
+var secondNumber =parseInt( prompt("Enter the second number"));
+
+var theTotal = firstNumber + secondNumber;
+//Find Larger Number
+var large =firstNumber > secondNumber ? firstNumber : secondNumber;
+
+document.writeln(`${firstNumber}  added to ${secondNumber} equals  ${theTotal}`);
+
+document.write("<br/>");
+document.writeln("Larger is ", large);
+document.write("<br/>");
+//Find Out Assending Order
+if(firstNumber>secondNumber){
+    document.write("No In Assending Order : ");
+    document.write(secondNumber);
+    document.write(",         ");
+    document.write(firstNumber);
+}
+
+else{
+    document.write("No In Assending Order : ");
+    document.write(firstNumber);
+    document.write(",        ");
+    document.write(secondNumber);
+}
+</script>
+</body>
+</html>
